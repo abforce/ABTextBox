@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test ABTextBox Accept Plug-in</title>
+        <link rel="stylesheet" href="abtextbox.css" />
+        <script src="abtextbox.js"></script>
+        <script>
+            window.onload = function () {
+                editor = ABTextBox('editor1', {
+                    accept: {
+                        words: [/^.*@.*\.com$/i],
+                        style: {
+                            'font-style': 'italic',
+                            'background-color': 'yellowgreen',
+                            'text-align': 'center'
+                        }
+                    }
+                });
+                editor.focus();
+                editor.style({
+                    'font-family': 'Calibri',
+                    width: '200px',
+                    height: '23px'
+                });
+				
+				editor.on('accept', function(event){
+					editor.readonly(true);
+					editor.blur();
+				});
+
+                editor.skin('default');
+            }
+        </script>
+    </head>
+    <body>
+		<div style="font-family:Calibri; margin-bottom: 10px;">Please enter your email address: </div>
+        <input type="text" id="editor1" />
+    </body>
+</html>

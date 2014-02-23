@@ -1,0 +1,65 @@
+.ABTextBox {
+    display:inline-block;
+}
+
+.ABTextBox-frame {
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+
+.ABTextBox .ABTextBox-toolbox {
+    padding:1px;
+    margin-bottom:1px;
+}
+
+
+
+.ABTextBox-skin-default {
+    border-radius:3px;
+    border: 1px solid silver;
+    padding:3px;
+    background:linear-gradient(0deg, #eeeeee, #ffffff , #eeeeee);
+    background-color:#eeeeee;
+}
+
+.ABTextBox-skin-default .ABTextBox-frame {
+    border: 1px solid silver;
+    background-color: white;
+}
+
+.ABTextBox-skin-default .ABTextBox-toolbox {
+   
+}
+
+.ABTextBox-skin-default .ABTextBox-toolbox-btn {
+    border:1px solid silver;
+    border-radius:2px;
+    width:30px;
+    height:25px;
+    padding:1px;
+    margin:1px;
+    background:linear-gradient(0deg,#dddddd,#eaeaea,#dddddd);
+}
+
+.ABTextBox-skin-default .ABTextBox-toolbox-btn:hover {
+    background:linear-gradient(0deg,#eeeeee,#fbfbfb,#eeeeee);
+}
+
+.ABTextBox-skin-default .ABTextBox-toolbox-btn:active {
+    background:linear-gradient(0deg,#fbfbfb,#eeeeee,#fbfbfb);
+}
+
+
+.ABTextBox-skin-custom {
+    border-radius:3px;
+    border: 1px solid;
+    padding:3px;
+}
+
+.ABTextBox-skin-custom .ABTextBox-frame {
+    border: 1px solid;
+    background-color: white;
+}

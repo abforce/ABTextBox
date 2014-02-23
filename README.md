@@ -12,4 +12,4 @@ Notes:
 		3.3. Plug-in for filter inputed text for instance only certain characters or only numbers  
   
 It's fully open-source and is going be released user MIT license  
-Because of some reasons this project was on hold
+<b>Because of some reasons this project was on hold</b>

@@ -11,5 +11,5 @@ Notes:
 		3.2. Plug-in for accept an input from user, It fires an event when inputed text matches a pattern for example RegExp  
 		3.3. Plug-in for filter inputed text for instance only certain characters or only numbers  
   
-It's fully open-source and is going be released user MIT license  
+It's fully open-source and is going to be released user MIT license  
 <b>Because of some reasons this project was on hold since October 2013</b>
